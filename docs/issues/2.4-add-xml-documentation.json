@@ -1,0 +1,18 @@
+{
+  "rank": "2.4",
+  "title": "Add XML documentation",
+  "context": "There is no API documentation.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Generate XML docs in the package.",
+    "expected_outcome": "The library has generated API docs.",
+    "acceptance_criteria": [
+      "Docs build",
+      "Package includes XML"
+    ]
+  },
+  "attempts": []
+}

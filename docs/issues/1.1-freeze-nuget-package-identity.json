@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Freeze NuGet package identity",
+  "context": "The package id and namespace are the public contract.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Review the csproj and document package id.",
+    "expected_outcome": "Consumers use one stable package id.",
+    "acceptance_criteria": [
+      "Id is documented",
+      "dotnet test passes"
+    ]
+  },
+  "attempts": []
+}

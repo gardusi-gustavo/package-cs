@@ -1,0 +1,18 @@
+{
+  "rank": "1.4",
+  "title": "Add a solution file",
+  "context": "There is no root solution.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a .sln that includes lib, tests, and example.",
+    "expected_outcome": "A contributor can open one solution.",
+    "acceptance_criteria": [
+      "Solution opens",
+      "Builds all projects"
+    ]
+  },
+  "attempts": []
+}
